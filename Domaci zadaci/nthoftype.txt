@@ -1,0 +1,6 @@
+2n+1 selektuje
+n uvek krece od nulu to je 0+1 je jedan ,
+nth of type (1)
+nth of type (n) odnosi se na sve kolko god ih ima od 0 do beskonacno
+nth of type (2n) to se mnozi n sa 2 
+nth of type (2n+1) 2*0 je 0 2*1 je 2 plus 1 je tri

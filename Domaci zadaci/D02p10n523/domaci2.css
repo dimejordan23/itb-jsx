@@ -1,0 +1,39 @@
+body {
+    background-color: grey;
+}
+h2 {
+    color: red;
+    text-align: center;
+    margin:0 auto;
+    background-color: black;
+}
+.audio {
+    border-style: double;
+    border-color: red;
+    width: 500px;
+    height:500px;
+    display: block;
+    img { 
+    
+    }
+}
+.info {
+ >p:nth-of-type(2n+1) {
+    color: yellow;
+    font-size: 24px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+>.differente {
+    color: aquamarine;
+     >.colores {
+        color: red;
+        border:none;
+        display: inline;
+    }
+    .colores:hover {
+        color:none;
+        color: green;
+    }
+ }
+}

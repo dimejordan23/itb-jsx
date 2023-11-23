@@ -1,0 +1,60 @@
+h3,h4 {
+    color: orange;
+}
+.desno_poravnanje {
+    text-align: right;
+    color: blue;
+}
+.crveni_text {
+    color: red;
+}
+.drugi {
+    background-color: yellow;
+}
+
+/*Prioritet selektora*/
+
+.headline {
+    text-align: center;
+    color: red;
+}
+.text-edit {
+    text-align: right;
+    font-size: 24px;
+    background-color: blueviolet;
+}
+
+img {
+    width: 400px;
+    height: 300px;
+    border: 2px dotted red; }
+
+    div p {
+        color: aquamarine;
+    }
+    /*stilizacija linka*/
+    /*i pseudo klase vezba  a:link*/
+
+    a {
+        color: limegreen;
+    }
+    h1:last-of-type {
+        text-align: center;
+        color: green;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    ul:last-of-type {
+        font-size: 34px;
+        >li:nth-of-type(2n+1) {
+            
+            color: red;
+        }
+    }
+
+    a:hover {
+        color: brown;
+    } 
+    a:visited {
+        color: pink;
+    }
